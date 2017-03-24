@@ -4,6 +4,7 @@
 	margin:auto;
 }
 .box{
+	position: relative;
 	display: inline-block;
 	border: 1px black solid;
 }
@@ -19,5 +20,16 @@
 }
 .yellow, .black, .grey{
 	width: 33.33%;
-	height 300px;
+	height: 300px;
+}
+
+.yellow{
+	background-color: goldenrod;
+}
+
+.black{
+	background-color: black;
+}
+.grey{
+	background-color: grey;
 }
