@@ -1,35 +1,44 @@
-.container{
-	width: 800px;
-	font-size: 0;
-	margin:auto;
-}
-.box{
-	position: relative;
-	display: inline-block;
-	border: 1px black solid;
-}
-.blue,.green {
-	width: 50%;
-	height: 200px;
-}
-.blue{
-	background-color: blue;
-}
-.green{
-	background-color: green;
-}
-.yellow, .black, .grey{
-	width: 33.33%;
-	height: 300px;
+.container {
+    width: 800px;
+    font-size: 0;
+    margin: auto;
 }
 
-.yellow{
-	background-color: goldenrod;
+.box {
+    position: relative;
+    display: inline-block;
+    border: 1px black solid;
 }
 
-.black{
-	background-color: black;
+.blue,
+.green {
+    width: 50%;
+    height: 200px;
 }
-.grey{
-	background-color: grey;
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow,
+.black,
+.grey {
+    width: 33.33%;
+    height: 300px;
+}
+
+.yellow {
+    background-color: goldenrod;
+}
+
+.black {
+    background-color: black;
+}
+
+.grey {
+    background-color: grey;
 }
