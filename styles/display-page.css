@@ -4,14 +4,25 @@
     margin: auto;
 }
 
+.top{
+	margin-top: 90px;
+}
+
 .box {
     position: relative;
     display: inline-block;
     border: 1px black solid;
 }
 
-.blue,
-.green {
+/**
+ *
+ * Is it okay that I used class selectors together and then dwindled down?
+ * Does that hender performance because it's still written for each class?
+ *
+ */
+
+
+.blue, .green {
     width: 50%;
     height: 200px;
 }
@@ -24,15 +35,13 @@
     background-color: green;
 }
 
-.yellow,
-.black,
-.grey {
+.yellow, .black, .grey {
     width: 33.33%;
     height: 300px;
 }
 
 .yellow {
-    background-color: goldenrod;
+    background-color: orange;
 }
 
 .black {
