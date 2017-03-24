@@ -1,0 +1,23 @@
+.container{
+	width: 800px;
+	font-size: 0;
+	margin:auto;
+}
+.box{
+	display: inline-block;
+	border: 1px black solid;
+}
+.blue,.green {
+	width: 50%;
+	height: 200px;
+}
+.blue{
+	background-color: blue;
+}
+.green{
+	background-color: green;
+}
+.yellow, .black, .grey{
+	width: 33.33%;
+	height 300px;
+}
