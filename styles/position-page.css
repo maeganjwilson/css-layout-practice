@@ -19,17 +19,13 @@ nav .ico-img {
     width: 50px;
     height: 50px;
     border: 1px black solid;
-    margin: 5px;
+    margin: 5px 0 5px 0;
     vertical-align: middle;
 }
 
 nav ul {
     display: inline-block;
-    position: absolute;
     list-style: none;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    padding-left: 40px;
 }
 
 nav ul li {
