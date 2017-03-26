@@ -63,11 +63,11 @@ main {
 }
 
 .cat {
-    top: 50px;
-    left: 300px;
+    top: -90px;
+    left: -90px;
 }
 
 .dog {
-    bottom: 50px;
-    right: 340px;
+    bottom: -120px;
+    right: -60px;
 }
